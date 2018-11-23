@@ -18,7 +18,8 @@ if (process.env.JAWSDB_URL) {
     //     use_env_variable: "JAWSDB_URL",
     //     dialect: "mysql"
     // }
-});
+    });
+}
 
 connection.connect(function(err) {
     if (err) {
